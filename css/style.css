@@ -1,0 +1,108 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.container {
+
+    background:#eee;
+    width: 1000px;
+    padding: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    
+    
+
+}
+
+h1 {
+
+    border: 2px solid olive;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin: 10px auto;
+    
+
+}
+
+.main-li {
+    
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+  
+}
+
+#yellow {
+
+    padding: 5px;
+    background-color: lightyellow;
+    display: block;
+    margin-bottom: 10px;
+    border: 2px solid black;
+
+}
+
+#blue {
+
+    padding: 5px;
+    background-color: lightblue;
+    display: block;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+#red {
+    
+    padding: 5px;
+    background-color: lightcoral;
+    display: block;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.h2-ingr {
+
+    background-color: lightsalmon;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+
+
+}
+
+.ingr {
+
+    background-color: lightsalmon;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid black;
+    
+}
+
+.h2-steps {
+
+    background-color: lightcyan;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+
+}
+
+.steps {
+    
+ background-color: lightcyan;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid black;
+
+}
+
+.button {
+    background-color: bisque;
+    display: block;
+    padding: 10px;
+
+}
