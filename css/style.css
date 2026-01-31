@@ -1,44 +1,102 @@
 * {
-    margin: 0 auto;
-    box-sizing: border-box;
-    font-family: sans-serif;
+     margin: auto 0;
+     font-family: sans-serif;
+    
+     
+     
     
 }
-.container {
 
+body {     
+    display: flex; 
+    flex-direction: column;        
+    height: 100vh;
+    margin: 0;
+}
+ 
+.header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  padding:8px; 
+  flex-shrink: 0;
+  
+  
+    
+}
+
+.footer {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: column;
+  padding:8px; 
+  flex-shrink: 0;
+}
+
+.logo {
+    color: rgb(111, 85, 138);
+   font-size: 32px;
+   font-weight: 900;
+   font-style: italic;
+   flex-shrink: 0;
+  
+}
+
+.links{
+    display: flex;
+    justify-content:space-between;
+    flex-shrink: 0;
+    gap:16px;
+}
+.flex-container  {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-self: center;
     background:#eee;
-    width: 1000px;
-    padding: 20px;
-    margin-top: 15px;
+    max-width: 50%;
+    padding: 50px;
     font-size: 16px;
-    
-    
-
 }
+
+ .flex-container img {
+    width: 300px;
+    height: auto;
+ }
+ 
+ .text  {
+    
+ }
 
 h1 {
-
+    text-align: center;
     border: 2px solid olive;
     padding: 10px;
+    margin-bottom: 20px;
     background-color: antiquewhite;
-    margin: 10px auto;
-    
-
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .main-li {
     
     background-color: lightgray;
-    padding: 10px;
-    margin: 10px;
-  
+    padding: 100px;                             
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
 }
 
 #yellow {
-
     padding: 5px;
-    background-color: lightyellow;
-    display: block;
+    background-color: lightyellow;;
     margin-bottom: 10px;
     border: 2px solid black;
 
@@ -48,7 +106,6 @@ h1 {
 
     padding: 5px;
     background-color: lightblue;
-    display: block;
     margin-bottom: 10px;
     border: 2px solid black;
 }
@@ -57,7 +114,6 @@ h1 {
     
     padding: 5px;
     background-color: lightcoral;
-    display: block;
     margin-bottom: 10px;
     border: 2px solid black;
 }
@@ -68,7 +124,8 @@ h1 {
     border: 2px solid black;
     padding: 10px;
     margin: 10px;
-    display: block;
+    
+    
 
 
 }
@@ -89,14 +146,16 @@ h1 {
     margin: 10px;
     border: 2px solid black;
 
+
 }
 
 .steps {
-    
- background-color: lightcyan;
+     
+    background-color: lightcyan;
     padding: 5px;
     margin: 10px;
     border: 2px solid black;
+
 
 }
 
@@ -105,4 +164,12 @@ h1 {
     display: block;
     padding: 10px;
 
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
